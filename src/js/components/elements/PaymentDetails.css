@@ -1,0 +1,131 @@
+.wrapper {
+    width: 1160px;
+    height: 680px;
+    overflow: hidden;
+    transition: .4s;
+    padding: 0 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    color: #1A1A1A;
+    border-bottom: 1px solid #979797;
+    &>div {
+        display: flex;
+        justify-content: space-between;
+        width: 650px;
+        padding: 20px 5px;
+        align-items: baseline;
+    }
+    .heading {
+        font-size: 25px;
+    }
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.fio {}
+
+.leftSide {
+    display: flex;
+    flex-basis: 446px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    p {
+        flex-basis: 100%;
+        color: #3E3E3E;
+        font-size: 15px;
+        font-weight: bolder;
+        margin-bottom: 7px;
+    }
+    input.fio {
+        flex-basis: 100%;
+    }
+    input {
+        height: 31px;
+        margin-bottom: 10px;
+        flex-basis: 218px;
+        color: #3B3B3B;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        background: #F9F9F9;
+        border-radius: 4px;
+        &::-webkit-input-placeholder {
+            color: #818181;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+        &::-moz-placeholder {
+            color: #818181;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+        /* Firefox 19+ */
+        &:-moz-placeholder {
+            color: #818181;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+        /* Firefox 18- */
+        &:-ms-input-placeholder {
+            color: #818181;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+    }
+}
+
+.rightSide {}
+
+.footer {
+  position: relative;
+    display: flex;
+    align-items: center;
+    height: 97px;
+    .button {
+        color: #ff7500;
+        border: 1px solid #ff7500;
+        border-radius: 4px;
+        width: 231px;
+        flex: 0 0 231px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-weight: lighter;
+        display: block;
+        cursor: pointer;
+        &:hover {
+            background: #ff7500;
+            color: white;
+        }
+    }
+    .summ {
+        position: absolute;
+        right: 0px;
+        color: #FF7500;
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+        align-items: center;
+        p {
+            font-size: 20px;
+            text-align: right;
+            line-height: 26px;
+        }
+    }
+}
+.contact {
+  position: absolute;
+  left: 0px;
+}

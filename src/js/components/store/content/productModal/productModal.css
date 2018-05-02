@@ -1,0 +1,40 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* align items in Main Axis */
+  align-items: stretch; /* align items in Cross Axis */
+  align-content: stretch; /* Extra space in Cross Axis */
+  size: 1160px 680px;
+  overflow: visible;
+  /*overflow: auto;*/
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* align items in Main Axis */
+  align-items: stretch; /* align items in Cross Axis */
+  align-content: stretch; /* Extra space in Cross Axis */
+  padding: 40px 0 0;
+  position: relative;
+}
+.close {
+  display: block;
+  position: absolute 0 -40px * *;
+  size: 30px;
+  cursor: pointer;
+  svg {
+    fill: #fff;
+    transition: .3s;
+    border-radius: 50%;
+  }
+  &:hover {
+    svg {
+      transform: scale(1.2);
+      /*box-shadow: 0 0 2px 2px rgba(255,255,255,.3);*/
+    }
+  }
+}

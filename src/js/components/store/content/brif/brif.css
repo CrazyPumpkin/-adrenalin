@@ -1,0 +1,92 @@
+.brif {
+		margin-top: 17px;
+		padding-bottom: 46px;
+}
+
+.sizesSection, .pricesSection {
+		border: 1px solid #E7E7E7;
+		border-radius: 4px 4px 0px 0px;
+		overflow: hidden;
+		padding-top: 60px;
+		position: relative;
+		max-height: 450px;
+		.preview {
+				display: inline-block;
+				width: 50%;
+				margin-right: -2px;
+				vertical-align: top;
+				position: relative;
+				text-align: center;
+				img {
+						position: absolute;
+						left: 0;
+						right: 0;
+						height: 357px;
+						margin: auto;
+				}
+		}
+		.sizes {
+				width: 50%;
+				display: inline-block;
+				vertical-align: top;
+		}
+}
+
+.header {
+		background: #DCDCDC;
+		height: 30px;
+		width: 100%;
+		padding-left: 23px;
+		line-height: 31px;
+		position: absolute;
+		top: 0;
+		left: 0;
+}
+
+.printsSection {
+		position: relative;
+}
+
+.footer {
+	position: relative;
+	text-align: right;
+		.button {
+			text-decoration: none;
+			margin-top: 57px;
+			width: 231px;
+			height: 40px;
+			line-height: 40px;
+			border-radius: 3px;
+			display: inline-block;
+			cursor: pointer;
+			border: 1px solid #FF7500;
+			background: transparent;
+			text-align: center;
+			font-size: 20px;
+			color: #FF7500;
+			&:hover {
+					background: #FF7500;
+					color: white;
+			}
+				&_accept {}
+				&_cancel {
+					margin-right: 14px;
+				}
+		}
+}
+.contact {
+    position: absolute;
+    bottom: 0;
+}
+.textInput{
+	background: #F6F6F6;
+	color: #666666;
+	font-size: 15px;
+	font-weight: lighter;
+	padding: 15px 25px;
+	resize: none;
+	border: none;
+	height: 116px;
+	width: 100%;
+	box-sizing: border-box;
+}

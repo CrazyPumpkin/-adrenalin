@@ -1,0 +1,54 @@
+.confirm__wrap {
+  padding: 55px 33px 50px 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.text {
+  text: #696969 15px;
+  margin-bottom: 18px;
+}
+
+.btn_wrap {
+  text-align: center;
+  margin: 35px 0 20px;
+}
+
+.btn {
+  min-width: 144px;
+  width: auto;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #FF7500;
+  background-color: #fff;
+  transition: .2s;
+  text: #FF7500 300 16px;
+  height: 32px;
+  line-height: 30px;
+  padding-right: 11px;
+  padding-left: 11px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 10px;
+  text-decoration: none;
+  box-sizing: border-box;
+  span {
+    size: 29px 23px;
+  }
+  svg {
+    fill: #FF7500;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+  }
+  &:hover {
+    background-color: #FF7500;
+    color: #fff;
+    svg {
+      fill: #fff;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.wrap {
+  flex: 1 1 55%;
+  margin-top: -40px;
+  width: 100%;
+}
+.printsList {
+  height: calc(100% - 68px);
+  box-sizing: border-box;
+  padding: 5px 37px;
+  margin: 0px -40px;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /*margin-bottom: 10px;*/
+}
+.contact {
+    position: absolute;
+    bottom: 0;
+}
+.buttonCancel{
+  width: 207px;
+  height: 34px;
+  border: 1px solid #ff7500;
+  font-size: 15px;
+  color: #ff7500;
+  font-weight: lighter;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  &:hover{
+    background: #FF7500;
+    color: white;
+  }
+}
+.button {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #FF7500;
+  background-color: #fff;
+  transition: .2s;
+  text: #FF7500 300 16px;
+  height: 40px;
+  min-width: 215px;
+  line-height: 40px;
+  line-height: 37px;
+  padding-right: 11px;
+  padding-left: 11px;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 8px;
+  text-decoration: none;
+  box-sizing: border-box;
+  position: absolute;
+  right: 9px;
+  bottom: 19px;
+  span {
+    size: 29px 23px;
+  }
+  svg {
+    fill: #FF7500;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+  }
+  &:hover {
+    background-color: #FF7500;
+    color: #fff;
+    svg {
+      fill: #fff;
+    }
+  }
+}

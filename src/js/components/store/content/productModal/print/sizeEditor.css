@@ -1,0 +1,16 @@
+.sizeInput {
+    width: 56px;
+    height: 30px;
+    border: 1px solid #979797;
+    font-size: 18px;
+    color: #797979;
+    font-weight: lighter;
+    border-radius: 4px;
+    text-align: center;
+    &:focus{
+      outline: none;
+    }
+}
+.unactive{
+  opacity: .5;
+}

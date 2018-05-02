@@ -1,0 +1,27 @@
+.item {
+  display: block;
+  margin: 0 auto 10px;
+  box-sizing: border-box;
+  padding: 6px 11px 6px 11px;
+  size: 44px;
+  border: 1px solid transparent;
+  color: #9B9B9B;
+  border-radius: 5px;
+  cursor: pointer;
+  svg {
+    size: 22px 32px;
+    fill: #9B9B9B;
+  }
+  &:hover {
+    border-color: #FF7500;
+    svg {
+      fill: #FF7500;
+    }
+  }
+  &_active {
+    border-color: #FF7500;
+    svg {
+      fill: #FF7500;
+    }
+  }
+}

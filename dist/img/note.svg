@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="37px" viewBox="0 0 26 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="3.5" width="21.657754" height="31.5" rx="2"></rect>
+        <filter x="-13.9%" y="-9.5%" width="127.7%" height="119.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="21-artboard" transform="translate(-596.000000, -230.000000)">
+            <g id="Group-9" transform="translate(179.000000, 74.000000)">
+                <g id="Group-8" transform="translate(201.000000, 153.000000)">
+                    <g id="Group-4" transform="translate(218.000000, 3.000000)">
+                        <g id="Rectangle-22">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <rect id="Rectangle" stroke="#CDCDCD" x="3.7486631" y="14.125" width="14.1604278" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" stroke="#CDCDCD" x="3.7486631" y="19.75" width="14.1604278" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" stroke="#CDCDCD" x="3.7486631" y="25.375" width="14.1604278" height="1" rx="0.5"></rect>
+                        <path d="M17.8249703,6.66681736 L17.8249703,3.39744663 C17.8249703,3.39744663 17.8249703,0.839233398 20.3249703,0.839233398 C22.8249703,0.839233398 22.8249703,3.37800294 22.8249703,3.37800294 L22.8249703,7.24348937 C22.8249703,7.24348937 22.8249703,9.41751036 20.8249703,9.41751036 C18.8249703,9.41751036 18.9217385,7.24348937 18.9217385,7.24348937 L18.9217385,4.42454146 C18.9217385,4.42454146 18.9892532,3.3883229 20.0062904,3.3883229 C21.0233276,3.3883229 21.0799291,4.42454146 21.0799291,4.42454146 L21.0799291,5.72586054" id="Path-2" stroke="#5A5A5A" stroke-width="0.7" stroke-linecap="round" transform="translate(20.324970, 5.128372) rotate(-333.000000) translate(-20.324970, -5.128372) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

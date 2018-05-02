@@ -1,0 +1,26 @@
+.wrap {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  svg {
+    fill: #9B9B9B;
+    transition: .2s;
+  }
+  &:hover {
+    svg {
+      fill: #4A90E2;
+    }
+  }
+}
+
+.counter {
+  position: absolute  0 0 * *;
+  transform: translate(50%,-50%);
+  display: block;
+  border-radius: 10px;
+  size: auto 20px;
+  background-color: #5DC252;
+  text-align: center;
+  text: #fff 300 12px 20px;
+  padding: 0 4px;
+}

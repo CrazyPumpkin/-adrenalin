@@ -1,0 +1,62 @@
+.table {
+  width: 100%;
+  text-align: center;
+  border-collapse:separate;
+}
+
+.input {
+  size: 35px 26px;
+  text: #000 300 14px;
+  border-radius: 3px;
+  border: 1px solid #CDCDCD;
+  text-align: center;
+  pointer-events: none;
+  display: inline-block;
+    line-height: 27px;
+    vertical-align: top;
+}
+
+.head {
+  text: #3B73B4 400 14px;
+  th {
+    padding-bottom: 28px;
+    &:first-of-type {
+      width: 60px;
+    }
+    &:last-of-type {
+      width: 78px;
+    }
+  }
+}
+
+.color {
+  display: inline-block;
+  background-color: currentColor;
+  size: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #979797;
+}
+
+.line {
+  td {
+    padding-bottom: 10px;
+    &:first-of-type {
+      text-align: left;
+    }
+  }
+}
+
+.summCounter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
+  &__label{
+    margin-left: 72px;
+  }
+  &__value{
+    width: 78px;
+    text-align: center;
+  }
+}

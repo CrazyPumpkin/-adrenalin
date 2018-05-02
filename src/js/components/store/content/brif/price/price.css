@@ -1,0 +1,42 @@
+.wrap {
+    display: table;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px 4px 0px 0px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.header {
+    display: table-header-group;
+    background: #e7e7e7;
+    &>div {
+        display: table-cell;
+    }
+}
+
+.body {
+    display: table-row-group;
+    .row {
+        display: table-row;
+        &>div {
+            display: table-cell;
+        }
+    }
+}
+.summ{
+  margin-top: 17px;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 17px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .label{
+    margin: 10px 20px;
+  }
+  .value{
+    margin: 10px 20px;
+  }
+}

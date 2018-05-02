@@ -1,0 +1,66 @@
+.sizeList{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  .sizeItem{
+    padding: 13px;
+    display: block;
+    position: relative;
+    flex-basis: 277px;
+    &_unactive{
+      pointer-events: none;
+      cursor: default;
+      opacity: .2;
+      .print{
+        display: none!important;
+      }
+    }
+    .shirt{
+      width: 100%;
+      margin-bottom: 30px;
+      position: relative;
+      .scheme{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .label{
+      text-align: center;
+      color: #696969;
+      font-size: 13px;
+      font-weight: lighter;
+    }
+    .accessArea{
+      width: 57%;/* Ширина допустимой зоны*/
+      height: 76%;/* высота допустимой зоны*/
+      overflow: hidden;
+      position: relative;
+      display: block;
+      position: absolute;
+      left: 0;/* Расположение допустимой зоны */
+      right: 0;
+      margin: auto;
+      top: 15%; /* Расположение допустимой зоны */
+    }
+    .print{
+      display: block;
+      width: 50px;/* Размер запечатываемой области*/
+      height: 20px; /* Размер запечатываемой области*/
+      position: absolute;
+      top: 20%; /* Отступ сверху */
+      left: 50%;/* Отступ слева */
+      /*transform: translateX(-50%);*/
+      border: 1px dashed #979797;
+      overflow: hidden;
+      img{
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+      }
+    }
+  }
+}

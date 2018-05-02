@@ -1,0 +1,48 @@
+.item {
+  position: relative;
+  display: block;
+  size: 30px;
+  background-color: currentColor;
+  border-radius: 50%;
+  margin: 10px auto;
+  /*box-shadow: 0 0 4px rgba(0,0,0, .4);*/
+  /*transition: .2s;*/
+  box-sizing: content-box;
+  cursor: pointer;
+  border: 1px solid transparent;
+
+  &_active {
+    size: 30px;
+    box-shadow: inset 0px 0px 0px 4px white;
+    border: 1px solid transparent!important;
+  }
+  &_white{
+    border-color: #979797;
+  }
+}
+.item_active.item_white{
+  color: #ddd!important;
+
+}
+.icon{
+  cursor: pointer;
+  /*transition: .2s;*/
+  g{
+    stroke: rgb(155, 155, 155);
+  }
+
+  &:hover g{
+    stroke: rgb(255, 117, 0);
+  }
+  &_bottom{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+}
+.wrapper{
+  height: 434px;
+  position: relative;
+}

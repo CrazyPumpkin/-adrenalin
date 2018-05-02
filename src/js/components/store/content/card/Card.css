@@ -1,0 +1,138 @@
+.item {
+  size: 291px 411px;
+  float: left;
+  background-color: transparent;
+  border-radius: 3px;
+  transition: .2s;
+  padding: 15px 15px 10px;
+  box-sizing: border-box;
+  margin-right: 113px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 19px;
+  display: inline-block;
+  position: relative;
+  outline: none;
+  &:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 16px rgba(0,0,0,.2);
+    .price small {
+      display: inline-block;
+    }
+    .searchIcon {
+      display: block;
+      opacity: 1;
+    }
+    .price {
+      span {
+        sub {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.short_wrap {
+  display: block;
+  margin: 0 auto;
+  size: 239px 290px;
+  margin: 0 auto 28px;
+}
+.short {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  width: 100%;
+  height: 25px;
+  border-bottom: 1px solid #D1D1D1;
+  display: flex;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+  text: 18px;
+  font-weight: 200;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  align-items: center;
+  height: 40px;
+  span {
+    flex: 0 1 auto;
+    text: #4A4A4A 18px;
+    margin-right: 3px;
+    position: relative;
+    sub {
+      position: absolute;
+      top: -2px;
+      right: -10px;
+      font-size: 14px;
+    }
+  }
+  small {
+    flex: 0 1 auto;
+    display: none;
+    text: #4A4A4A 10px;
+    margin-top: 1px;
+    vertical-align: middle;
+  }
+}
+
+.red {
+  color: #FF2222;
+  text-decoration: none;
+}
+
+.searchIcon {
+  display: none;
+  position: absolute 40% * * 50%;
+  transform: translate(-50%, -50%);
+  size: 38px;
+  background-image: url("/img/search.svg");
+  opacity: 0;
+  transition: .2s;
+  transition-delay: .1s;
+}
+
+.basket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.cart {
+  fill: #9B9B9B;
+  display: inline-block;
+  margin-right: 12px;
+  &:hover {
+    fill: #4A90E2;
+  }
+}
+
+.counter {
+  position: absolute  0 5px * *;
+  transform: translate(50%,-50%);
+  display: block;
+  border-radius: 10px;
+  size: auto 20px;
+  background-color: #5DC252;
+  text-align: center;
+  text: #fff 300 12px 20px;
+  padding: 0 3px;
+}

@@ -1,0 +1,335 @@
+[
+  {
+    "id": "000",
+    "sex": "male",
+    "model": "15332-0",
+    "material": "Хлопок 97% , элостан 3%",
+    "density": "160",
+    "season": "Лето",
+    "services": [
+      "Принт",
+      "Вышивка"
+    ],
+    "description": "У наших мужских футболок прямой фасон и свободный крой. Воротник не деформируется после стирок, благодаря небольшому давлению лайкры и компенсатору горловины.",
+    "colors": [
+      {
+        "id": "000",
+        "front": "/img/model1m/white/model1m-front.png",
+        "back": "/img/model1m/white/model1m-back.png",
+        "side": "/img/model1m/white/model1m-side.png"
+      },
+      {
+        "id": "001",
+        "front": "/img/model1m/black/model1m-front.png",
+        "back": "/img/model1m/black/model1m-back.png",
+        "side": "/img/model1m/black/model1m-side.png"
+      },
+      {
+        "id": "002",
+        "front": "/img/model1m/blue/model1m-front.png",
+        "back": "/img/model1m/blue/model1m-back.png",
+        "side": "/img/model1m/blue/model1m-side.png"
+      },
+      {
+        "id": "003",
+        "front": "/img/model1m/red/model1m-front.png",
+        "back": "/img/model1m/red/model1m-back.png",
+        "side": "/img/model1m/red/model1m-side.png"
+      },
+      {
+        "id": "004",
+        "front": "/img/model1m/orange/model1m-front.png",
+        "back": "/img/model1m/orange/model1m-back.png",
+        "side": "/img/model1m/orange/model1m-side.png"
+      },
+      {
+        "id": "005",
+        "front": "/img/model1m/yellow/model1m-front.png",
+        "back": "/img/model1m/yellow/model1m-back.png",
+        "side": "/img/model1m/yellow/model1m-side.png"
+      }
+    ],
+    "price": [
+      {
+        "counter": "1",
+        "value": "1000"
+      },
+      {
+        "counter": "10",
+        "value": "800"
+      },
+      {
+        "counter": "50",
+        "value": "400"
+      },
+      {
+        "counter": "100",
+        "value": "300"
+      },
+      {
+        "counter": "200",
+        "value": "200"
+      },
+      {
+        "counter": "500",
+        "value": "150"
+      }
+    ],
+    "areas": [
+      {
+        "name": "Грудь",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-front.svg",
+        "fullImage":[ "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg" ]
+      },
+      {
+        "name": "Спина",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-back.svg",
+        "fullImage":[ "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg" ]
+      },
+      {
+        "name": "Л рукав",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-left.svg",
+        "fullImage":[ "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg" ]
+      },
+      {
+        "name": "П рукав",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-right.svg",
+        "fullImage":[ "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg" ]
+      }
+    ]
+  },
+  {
+    "id": "001",
+    "sex": "male",
+    "model": "15332-1",
+    "material": "Хлопок 97% , элостан 3%",
+    "density": "160",
+    "season": "Лето",
+    "services": [
+      "Принт",
+      "Вышивка"
+    ],
+    "description": "У наших мужских футболок прямой фасон и свободный крой. Воротник не деформируется после стирок, благодаря небольшому давлению лайкры и компенсатору горловины.",
+    "colors": [
+      {
+        "id": "000",
+        "front": "/img/model2m/white/model2m-front.png",
+        "back": "/img/model2m/white/model2m-back.png",
+        "side": "/img/model2m/white/model2m-side.png"
+      },
+      {
+        "id": "001",
+        "front": "/img/model2m/black/model2m-front.png",
+        "back": "/img/model2m/black/model2m-back.png",
+        "side": "/img/model2m/black/model2m-side.png"
+      },
+      {
+        "id": "002",
+        "front": "/img/model2m/blue/model2m-front.png",
+        "back": "/img/model2m/blue/model2m-back.png",
+        "side": "/img/model2m/blue/model2m-side.png"
+      },
+      {
+        "id": "003",
+        "front": "/img/model2m/red/model2m-front.png",
+        "back": "/img/model2m/red/model2m-back.png",
+        "side": "/img/model2m/red/model2m-side.png"
+      },
+      {
+        "id": "004",
+        "front": "/img/model2m/orange/model2m-front.png",
+        "back": "/img/model2m/orange/model2m-back.png",
+        "side": "/img/model2m/orange/model2m-side.png"
+      },
+      {
+        "id": "005",
+        "front": "/img/model2m/yellow/model2m-front.png",
+        "back": "/img/model2m/yellow/model2m-back.png",
+        "side": "/img/model2m/yellow/model2m-side.png"
+      }
+    ],
+    "price": [
+      {
+        "counter": "1",
+        "value": "1000"
+      },
+      {
+        "counter": "10",
+        "value": "800"
+      },
+      {
+        "counter": "50",
+        "value": "400"
+      },
+      {
+        "counter": "100",
+        "value": "300"
+      },
+      {
+        "counter": "200",
+        "value": "200"
+      },
+      {
+        "counter": "500",
+        "value": "150"
+      }
+    ],
+    "areas": [
+      {
+        "name": "Грудь",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-front.svg",
+        "fullImage":[ "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg" ]
+      },
+      {
+        "name": "Спина",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-back.svg",
+        "fullImage":[ "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg" ]
+      },
+      {
+        "name": "Л рукав",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-left.svg",
+        "fullImage":[ "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg" ]
+      },
+      {
+        "name": "П рукав",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-right.svg",
+        "fullImage":[ "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg" ]
+      }
+    ]
+  },
+  {
+    "id": "002",
+    "sex": "male",
+    "model": "15332-2",
+    "material": "Хлопок 97% , элостан 3%",
+    "density": "160",
+    "season": "Лето",
+    "services": [
+      "Принт",
+      "Вышивка"
+    ],
+    "description": "У наших мужских футболок прямой фасон и свободный крой. Воротник не деформируется после стирок, благодаря небольшому давлению лайкры и компенсатору горловины.",
+    "colors": [
+      {
+        "id": "000",
+        "front": "/img/model3m/white/model3m-front.png",
+        "back": "/img/model3m/white/model3m-back.png",
+        "side": "/img/model3m/white/model3m-side.png"
+      },
+      {
+        "id": "001",
+        "front": "/img/model3m/black/model3m-front.png",
+        "back": "/img/model3m/black/model3m-back.png",
+        "side": "/img/model3m/black/model3m-side.png"
+      },
+      {
+        "id": "002",
+        "front": "/img/model3m/blue/model3m-front.png",
+        "back": "/img/model3m/blue/model3m-back.png",
+        "side": "/img/model3m/blue/model3m-side.png"
+      },
+      {
+        "id": "003",
+        "front": "/img/model3m/red/model3m-front.png",
+        "back": "/img/model3m/red/model3m-back.png",
+        "side": "/img/model3m/red/model3m-side.png"
+      },
+      {
+        "id": "004",
+        "front": "/img/model3m/orange/model3m-front.png",
+        "back": "/img/model3m/orange/model3m-back.png",
+        "side": "/img/model3m/orange/model3m-side.png"
+      },
+      {
+        "id": "005",
+        "front": "/img/model3m/yellow/model3m-front.png",
+        "back": "/img/model3m/yellow/model3m-back.png",
+        "side": "/img/model3m/yellow/model3m-side.png"
+      }
+    ],
+    "price": [
+      {
+        "counter": "1",
+        "value": "1000"
+      },
+      {
+        "counter": "10",
+        "value": "800"
+      },
+      {
+        "counter": "50",
+        "value": "400"
+      },
+      {
+        "counter": "100",
+        "value": "300"
+      },
+      {
+        "counter": "200",
+        "value": "200"
+      },
+      {
+        "counter": "500",
+        "value": "150"
+      }
+    ],
+    "areas": [
+      {
+        "name": "Грудь",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-front.svg",
+        "fullImage":[ "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg", "./img/sizes-segment-front.svg" ]
+      },
+      {
+        "name": "Спина",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-back.svg",
+        "fullImage":[ "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg", "./img/shirt-back.svg" ]
+      },
+      {
+        "name": "Л рукав",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-left.svg",
+        "fullImage":[ "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg", "./img/shirt-left.svg" ]
+      },
+      {
+        "name": "П рукав",
+        "size": [ [400,600], [420,600], [450,600], [470,600], [500,600], [550,600], [600,600] ],
+        "allowedSize": [ [225,285], [234,300], [248,318], [262,332], [281,356], [309,389], [337,431] ],
+        "allowedOffset": [56, 56, 60, 65, 70, 75, 79],
+        "image":"./img/shirt-right.svg",
+        "fullImage":[ "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg", "./img/shirt-right.svg" ]
+      }
+    ]
+  }
+]

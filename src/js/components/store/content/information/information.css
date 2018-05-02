@@ -1,0 +1,120 @@
+$orange: #FF7500;
+$gray: #696969;
+
+.information {
+  box-sizing: border-box;
+  padding: 25px 0;
+  h3 {
+    font-size: 17px;
+    color: $orange;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  h4 {
+    text-transform: uppercase;
+    font-style: 14px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: $gray;
+  }
+  p {
+    font-size: 14px;
+    color: $gray;
+    margin: 0 0 20px;
+  }
+  ul {
+    padding-left: 40px;
+    color: $gray;
+    font-size: 14px;
+    margin: 20px 0;
+  }
+  ol {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+    > li {
+      counter-increment: item;
+      margin-bottom: 15px;
+      font-size: 14px;
+      color: $gray;
+      &:before {
+        content: counters(item, ".") ". ";
+        font-size: 14px;
+      }
+    }
+  }
+
+  li ol {
+    margin: 15px 0;
+    > li {
+      margin: 0;
+      width: 100%;
+      padding: 0;
+      font-size: 14px;
+      color: #696969;
+      &:before {
+        content: counters(item, ".") " ";
+        font-size: 14px;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #4D6FB8;
+    &:hover {
+      color: #3c5996;
+    }
+  }
+}
+
+.requisits {
+  box-sizing: border-box;
+  border-top: 1px solid #D8D8D8;
+  padding: 10px 0;
+}
+
+.table {
+  width: 100%;
+  margin: 30px 0;
+  td {
+    width: 50%;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 17px;
+    &:first-of-type {
+      color: #4A4A4A;
+    }
+    &:last-of-type {
+      color: #9B9B9B;
+    }
+  }
+}
+
+.contacts {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 0;
+  &__item {
+    display: inline-block;
+    font-size: 21px;
+    color: $gray;
+    vertical-align: top;
+    margin-right: 50px;
+    span {
+      display: inline-block;
+      vertical-align: bottom;
+    }
+  }
+  &__icon {
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: bottom;
+    size: auto 29px;
+    svg {
+      display: inline-block;
+      vertical-align: bottom;
+    }
+  }
+}

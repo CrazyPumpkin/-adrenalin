@@ -1,0 +1,14 @@
+.contact {
+    cursor: pointer;
+    &:hover {
+        color: #ff7500;
+        g {
+            fill: #ff7500;
+        }
+    }
+    &>span {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,88 @@
+$model: 15%;
+$result: 112px;
+
+.table {
+  width: 100%;
+  display: flex;
+  padding-top: 17px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.search{
+  position: relative;
+  width: 100%;
+  height: 44px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 17px;
+  margin-bottom: 37px;
+  .input{
+    background: #f9f9f9;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0 14px;
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  .button{
+    background: #C4C4C4;
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    height: 100%;
+    width: 123px;
+    line-height: 46px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+      background: #929292;
+    }
+  }
+}
+
+.basketFooter {
+  float: right;
+  width: 100%;
+  text-align: right;
+}
+
+
+.resultCounter {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  color: #FF7500;
+  line-height: 11px;
+  .value{
+    margin-top: 14px;
+    display: block;
+  }
+}
+
+.orderButton {
+  padding: 0 50px!important;
+  vertical-align: top;
+  border-color: #FF7500!important;
+  color: #FF7500!important;
+  &:hover{
+    background: #FF7500!important;
+    color: white!important;
+  }
+
+}
+.items{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,80 @@
+.wrap {
+  flex: 1 1 45%;
+  box-sizing: border-box;
+  padding: 0 0 0 31px;
+  position: relative;
+
+}
+
+.footer {
+  position: absolute * 0 18px 0;
+  padding: 0;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 9px;
+  background-color: transparent;
+}
+
+.hint {
+  text: #4A4A4A 200 14px;
+  display: block;
+  margin-top: 20px;
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #FF7500;
+  background-color: #fff;
+  transition: .2s;
+  text: #FF7500 300 16px;
+  height: 40px;
+  min-width: 215px;
+  line-height: 40px;
+  line-height: 37px;
+  padding-right: 11px;
+  padding-left: 11px;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 8px;
+  text-decoration: none;
+  box-sizing: border-box;
+  span {
+    size: 29px 23px;
+  }
+  svg {
+    fill: #FF7500;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+  }
+  &:hover {
+    background-color: #FF7500;
+    color: #fff;
+    svg {
+      fill: #fff;
+    }
+  }
+}
+
+.order_amount {
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 7px;
+  span {
+    text: #A6A6A6 14px;
+  }
+}
+.palleteToggle{
+  cursor: pointer;
+  margin-top: 0px;
+  display: inline-block;
+}
+.pallete{
+  padding: 0 0 0 65px;
+  margin-left: 50px;
+}

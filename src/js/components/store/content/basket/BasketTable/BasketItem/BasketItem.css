@@ -1,0 +1,327 @@
+/*.product {
+  width: 100%;
+  height: 71px;
+  position: relative;
+  background-color: #F9F9F9;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  .count, .result {
+    background-color: #F2F2F2;
+    height: 100%;
+    line-height: 71px;
+  }
+}
+.model {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sex {
+  width: 5%;
+  text-align: center;
+}
+
+.thumb {
+  width: 5%;
+  text-align: center;
+  &_item {
+    size: 28px 34px;
+    display: inline-block;
+  }
+}
+.count {
+  width: 11%;
+  text-align: center;
+}
+
+.price {
+  width: 11%;
+  text-align: center;
+}
+
+.result {
+  width: 13%;
+  text-align: center;
+}
+.removeItem {
+  display: block;
+  position: absolute 50% -45px * *;
+  size: 30px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  svg {
+    fill: #f00;
+    transition: .2s;
+    border-radius: 50%;
+  }
+  &:hover {
+    svg {
+      box-shadow: 0 0 2px 2px rgba(255,0,0,.3);
+    }
+  }
+}
+.sexIcon {
+  svg {
+    fill: #9B9B9B;
+  }
+}*/
+.product{
+  flex-basis: 471px;
+  position: relative;
+  border-radius: 4px;
+  height: 205px;
+  margin-bottom: 33px;
+  background: #fff;
+  padding: 10px 20px;
+  &_label{
+    position: absolute;
+    bottom: 100%;
+    color: #3E3E3E;
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  .header{
+    font-size: 19px;
+    font-weight: lighter;
+    color: #FF7500;
+    padding-bottom: 10px;
+    position: relative;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: calc(100% + 40px);
+      background: #dedede;
+      height: 1px;
+      left: -20px;
+      bottom: 0;
+    }
+  }
+  .body{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 136px;
+    box-sizing: border-box;
+    .image{
+      flex-basis: 180px;
+      text-align: center;
+      img{
+        width: 90px;
+        height: 100%;
+      }
+    }
+    .content{
+      width: 230px;
+      .string{
+        display: flow-root;
+        margin-bottom: 5px;
+      }
+      .label{
+        float: left;
+        font-size: 13px;
+        color: #666666;
+        font-weight: lighter;
+      }
+      .value{
+        float: right;
+        font-size: 13px;
+        color: #666666;
+        font-weight: bold;
+      }
+      .colors{
+        display: block;
+        width: 100%;
+        float: left;
+        margin-top: -10px;
+        .color{
+          display: inline-block;
+          width: 20px;
+          height: 5px;
+          background: #000;
+          margin-right: 5px;
+          border: 1px solid black;
+        }
+      }
+      .print{
+        height: 32px;
+        background: #e1e8f0;
+        padding: 6px 16px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 1px rgba(0,0,0,.41), inset 0px 3px 0px #EFF5FC, inset 0px -3px 0px #EFF5FC;
+        transform: skewX(-15deg);
+        position: absolute;
+        width: 270px;
+        right: -5px;
+        bottom: 55px;
+        p{
+          font-size: 13px;
+          color: #282828;
+          transform: skewX(15deg);
+        }
+        .icon{
+          position: absolute;
+          right: 20px;
+          top: 0;
+        }
+      }
+    }
+  }
+  .footer{
+      font-size: 15px;
+      font-weight: lighter;
+      padding: 12px 0;
+      position: relative;
+      display: flow-root;
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        width: calc(100% + 40px);
+        background: #dedede;
+        height: 1px;
+        left: -20px;
+        top: 0;
+      }
+    .label{
+      float: left;
+      color:#A6A6A6;
+      &_payment{
+        color: #FF7500;
+      }
+    }
+    .status{
+      float: right;
+      color: #FF7500;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: normal;
+      &_agreement{
+        color: #5DC252;
+      }
+      &_confirm{
+
+        a{
+          text-transform: capitalize;
+          color: #696969;
+          border: 1px solid #696969;
+          border-radius: 4px;
+          cursor: pointer;
+          display: inline-block;
+          padding: 5px 0;
+          width: 133px;
+          text-decoration: none;
+          text-align: center;
+          margin-top: -6px;
+          &:hover{
+            color: white;
+            background-color: #696969;
+          }
+      }
+
+      }
+      &_payment{
+        text-transform: capitalize;
+        color: #FF7500;
+        border: 1px solid #FF7500;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 5px 0;
+        width: 133px;
+        text-align: center;
+        margin-top: -6px;
+        &:hover{
+          color: white;
+          background-color: #FF7500;
+        }
+      }
+    }
+  }
+}
+.date{
+  font-weight: lighter;
+  font-size: 12px;
+  color: #666666;
+  float: right;
+  margin-top: 5px;
+}
+/*Remove*/
+
+.product{
+  &:hover{
+    .remove{
+      opacity: 1;
+    }
+  }
+}
+.remove{
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  z-index: 1;
+  transition: .4s;
+  transform: translateX(0);
+  .activate{
+    cursor: pointer;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    height: 100%;
+    width: 40px;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-left: 5px;
+    transition-duration: .4s;
+    transition-delay: .4s;
+    &_hidden{
+      opacity: 0;
+    }
+    &:hover{
+      color:#FF2626;
+    }
+  }
+  .bttnRemove{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    svg{
+      width: 26px;
+      height: 26px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+}
+.card{
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  margin: -10px -20px;
+  background: white;
+  position: relative;
+  z-index: 2;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(59, 59, 59, .5);
+  transform: translateX(0px);
+  transition-duration: .3s;
+  &_remove{
+    transform: translateX(-60px);
+  }
+}
+.clickable{
+  cursor: pointer;
+}

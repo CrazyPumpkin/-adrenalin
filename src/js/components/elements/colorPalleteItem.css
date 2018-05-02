@@ -1,0 +1,28 @@
+.item {
+  position: relative;
+  display: inline-block;
+  size: 27px;
+  background-color: currentColor;
+  border-radius: 50%;
+  margin: 10px 0;
+  /*box-shadow: 0 0 4px rgba(0,0,0, .4);*/
+  /*transition: .2s;*/
+  box-sizing: content-box;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-right: 15px;
+  &:nth-child(9n){
+    margin-right: 0;
+}
+  &:hover {
+    size: 27px;
+    box-shadow: inset 0px 0px 0px 4px white;
+    border: 1px solid transparent!important;
+  }
+  &_white{
+    border-color: #979797;
+  }
+}
+.item_white:hover{
+  color: #ddd!important;
+}

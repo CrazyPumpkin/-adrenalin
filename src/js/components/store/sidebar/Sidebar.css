@@ -1,0 +1,142 @@
+.wrap {
+  position: fixed 0 * 0 0;
+  color: #fff;
+  background-color: #F9F9F9;
+}
+
+.toggleBtn {
+  position: relative 15px * * 30px;
+  size: 25px 20px;
+  display: block;
+  margin: 0 auto 15px;
+  cursor: pointer;
+  /*position: absolute ;*/
+  z-index: 9;
+  span {
+    display: block;
+    position: absolute 50% * * *;
+    size: 100% 2px;
+    background-color: #9B9B9B;
+    transform: translateY(-50%);
+  }
+  &:before {
+    content: "";
+    position: absolute 0 * * 0;
+    width: 100%;
+    height: 2px;
+    background-color: #9B9B9B;
+    transform-origin: top left;
+  }
+  &:after{
+    content: "";
+    position: absolute * * 0 0;
+    width: 100%;
+    height: 2px;
+    background-color: #9B9B9B;
+    transform-origin: bottom left;
+  }
+  &:hover {
+    span {
+      background-color: #7E96C9;
+    }
+    &:before,
+    &:after {
+      background-color: #7E96C9;
+      transition: .2s;
+    }
+  }
+  &_visible {
+    span {
+      opacity: 0;
+    }
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.filters_wrap {
+  position: absolute 0 * 0 0;
+  width: 80px;
+  background-color: #F9F9F9;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  -ms-align-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 90px 0 25px;
+  text-align: center;
+  z-index: 1;
+}
+
+.menuBar {
+    width: 232px;
+    transform: translateX(-100%);
+    transition: .3s ease-in-out;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 90px 0 25px;
+    position: absolute 0 * 0 0;
+    z-index: 2;
+    background-color: #F9F9F9;
+    &_active {
+      transform: translateX(0%);
+    }
+}
+
+.list a {
+  text-align: left;
+}
+
+.list a {
+    font-weight: 200;
+}
+
+.list a:hover {
+    background-color: rgba(255, 117, 0, 0.26);
+    color: white;
+    .icon{
+      fill: white;
+    }
+}
+
+.list {
+     :global {
+        .active {
+            background-color: #ff7500!important;
+            color: white;
+            svg{
+              fill: white;
+            }
+        }
+    }
+}
+
+.link {
+  position: relative;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-weight: 200;
+    text: #817E7E 18px;
+    box-sizing: border-box;
+    padding: 7px 30px;
+    width: 100%;
+    cursor: pointer;
+    transition: .3s;
+}
+.icon {
+  fill: #817E7E;
+  transition: .3s;
+  display: inline-block;
+  size: 21px auto;
+  vertical-align: middle;
+  margin-right: 20px;
+}

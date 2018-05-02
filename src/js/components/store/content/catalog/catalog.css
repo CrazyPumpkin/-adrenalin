@@ -1,0 +1,14 @@
+.wrap {
+  box-sizing: border-box;
+  padding: 40px 0;
+  text-align: justify;
+  width: 100%;
+  font-size: 0;
+  &:after {
+    content: "\00a0";
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    width: 100%;
+  }
+}

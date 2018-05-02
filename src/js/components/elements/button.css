@@ -1,0 +1,25 @@
+.button {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #4A90E2;
+  transition: .2s;
+  text: #4A90E2 500 16px;
+  height: 40px;
+  line-height: 40px;
+  padding: * 12px;
+  border-radius: 3px;
+  margin-left: auto;
+  svg {
+    fill: #4A90E2;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+  }
+  &:hover {
+    background-color: #4A90E2;
+    color: #fff;
+    svg {
+      fill: #fff;
+    }
+  }
+}

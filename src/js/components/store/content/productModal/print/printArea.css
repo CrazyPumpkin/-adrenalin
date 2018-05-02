@@ -1,0 +1,34 @@
+.preview {
+    cursor: pointer;
+    display: inline-block;
+    width: 64px;
+    &>p {
+        font-size: 9px;
+        text-align: center;
+        color: #797979;
+    }
+    &:hover {
+        g {
+            stroke: black;
+        }
+        &>p {
+            color: #000000;
+        }
+    }
+    &_active {
+        g {
+            stroke: black;
+        }
+        &>p {
+            color: #000000;
+        }
+    }
+    &_unactive {
+        g {
+            /*stroke: black;*/
+        }
+        &>p {
+            color: transparent;
+        }
+    }
+}

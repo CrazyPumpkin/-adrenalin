@@ -1,0 +1,33 @@
+.header {
+  flex: 75px;
+  border-bottom: 1px solid #979797;
+  padding: 11px 0 10px 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  &_info {
+    border-color: transparent;
+  }
+}
+.title {
+  text: #1A1A1A 500 25px;
+  line-height: 1;
+}
+.link {
+  cursor: pointer;
+  margin-left: 31px;
+  text: #4A4A4A 400 14px;
+  text-decoration: none;
+  &:hover {
+    color: #4a90e2;
+  }
+  &:global{
+    &.active{
+      color: #FF7500;
+    }
+  }
+}
+.navigation {
+  margin: 6px 0;
+}

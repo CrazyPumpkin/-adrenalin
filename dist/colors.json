@@ -1,0 +1,138 @@
+[
+  {
+    "id": "000",
+    "name": "white",
+    "hex": "white"
+  },
+  {
+    "id": "001",
+    "name": "black",
+    "hex": "black"
+  },
+  {
+    "id": "002",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "003",
+    "name": "red",
+    "hex": "red"
+  },
+
+  {
+    "id": "004",
+    "name": "orange",
+    "hex": "orange"
+  },
+  {
+    "id": "005",
+    "name": "yellow",
+    "hex": "yellow"
+  },
+  {
+    "id": "006",
+    "name": "purpure",
+    "hex": "purpure"
+  },
+  {
+    "id": "007",
+    "name": "black",
+    "hex": "black"
+  },
+  {
+    "id": "008",
+    "name": "green",
+    "hex": "green"
+  },
+  {
+    "id": "009",
+    "name": "red",
+    "hex": "red"
+  },
+  {
+    "id": "010",
+    "name": "orange",
+    "hex": "orange"
+  },
+  {
+    "id": "011",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "012",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "013",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "014",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "015",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "016",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "017",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "018",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "019",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "020",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "021",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "022",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "023",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "024",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "025",
+    "name": "blue",
+    "hex": "blue"
+  },
+  {
+    "id": "026",
+    "name": "blue",
+    "hex": "magenta"
+  }
+]
